@@ -1,6 +1,6 @@
 {
   "name": "fildes-extra",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "fildes and some extra promises for mkdir -p, rm -rf, cp -r",
   "main": "lib/main.js",
   "scripts": {
