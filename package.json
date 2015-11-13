@@ -1,0 +1,27 @@
+{
+  "name": "fildes-extra",
+  "version": "0.1.0",
+  "description": "fildes and some extra promises for mkdir -p, rm -rf, cp -r",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisconnect/fildes-extra.git"
+  },
+  "keywords": [
+    "mkdir",
+    "mkdirp",
+    "rm",
+    "rimraf",
+    "cp",
+    "copy"
+  ],
+  "author": "Enrique Erne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thisconnect/fildes-extra/issues"
+  },
+  "homepage": "https://github.com/thisconnect/fildes-extra#readme"
+}
