@@ -2,9 +2,9 @@ Fildes Extra
 ------------
 
 
-[![Build Status](https://img.shields.io/travis/thisconnect/fildes-extra/master.svg?style=flat-square)](https://travis-ci.org/thisconnect/fildes)
-[![Dependencies](https://img.shields.io/david/thisconnect/fildes-extra.svg?style=flat-square)](https://david-dm.org/thisconnect/fildes)
-[![Dev Dependencies](https://img.shields.io/david/dev/thisconnect/fildes-extra.svg?style=flat-square)](https://david-dm.org/thisconnect/fildes#info=devDependencies)
+[![Build Status](https://img.shields.io/travis/thisconnect/fildes-extra/master.svg?style=flat-square)](https://travis-ci.org/thisconnect/fildes-extra)
+[![Dependencies](https://img.shields.io/david/thisconnect/fildes-extra.svg?style=flat-square)](https://david-dm.org/thisconnect/fildes-extra)
+[![Dev Dependencies](https://img.shields.io/david/dev/thisconnect/fildes-extra.svg?style=flat-square)](https://david-dm.org/thisconnect/fildes-extra#info=devDependencies)
 
 Extends [fildes](https://github.com/thisconnect/fildes) and adds `cpy` and `rimraf`.
 
