@@ -4,13 +4,15 @@
   "description": "Extends fildes with mkdir -p, rm -rf, cp -r",
   "main": "lib/main.js",
   "scripts": {
-    "test": "tape test/test.js | tap-spec"
+    "test": "tape test/test.js | tap-spec",
+    "coverage": "istanbul cover test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thisconnect/fildes-extra.git"
   },
   "keywords": [
+    "promise",
     "mkdir",
     "mkdirp",
     "rm",
@@ -25,9 +27,8 @@
   },
   "homepage": "https://github.com/thisconnect/fildes-extra#readme",
   "devDependencies": {
-    "coveralls": "^2.11.4",
-    "istanbul": "^0.4.0",
-    "tap-spec": "^4.1.0",
+    "istanbul": "^0.4.1",
+    "tap-spec": "^4.1.1",
     "tape": "^4.2.2"
   },
   "dependencies": {
