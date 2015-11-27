@@ -1,10 +1,10 @@
 {
   "name": "fildes-extra",
   "version": "0.1.0",
-  "description": "fildes and some extra promises for mkdir -p, rm -rf, cp -r",
+  "description": "Extends fildes with mkdir -p, rm -rf, cp -r",
   "main": "lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,6 @@
     "cpy": "^3.4.1",
     "debug": "^2.2.0",
     "fildes": "^0.7.0",
-    "mkdirp": "^0.5.1",
-    "rimraf": "^2.4.3"
+    "rimraf": "^2.4.4"
   }
 }
