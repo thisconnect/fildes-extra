@@ -1,6 +1,6 @@
 {
   "name": "fildes-extra",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extends fildes with mkdir -p, rm -rf, cp -r",
   "main": "lib/main.js",
   "scripts": {
