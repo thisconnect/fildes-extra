@@ -68,7 +68,7 @@ fildes.cp(['./data/*.txt'], './destination')
 
 ### trash (files)
 
-Promise `trash` uses [cpy](https://www.npmjs.com/package/trash) (NPM Documentation).
+Promise `trash` uses [trash](https://www.npmjs.com/package/trash) (NPM Documentation).
 
 ```javascript
 fildes.trash(['./data/file.txt'])
@@ -78,15 +78,24 @@ fildes.trash(['./data/file.txt'])
 ```
 
 
+### emptyTrash ()
+
+Promise `empty-trash` uses [empty-trash](https://www.npmjs.com/package/empty-trash) (NPM Documentation).
+
+```javascript
+fildes.emptyTrash()
+.then(function(){
+    console.log('trash emptied!');
+});
+```
+
+
 ### Test
 
+*WARNING:* tests will empty your trash!
+
 ```bash
-npm install
-
 npm test
-
-# debug
-DEBUG=fildes npm test
 
 # debug all
 DEBUG=fildes* npm test
