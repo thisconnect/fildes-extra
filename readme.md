@@ -66,6 +66,18 @@ fildes.cp(['./data/*.txt'], './destination')
 ```
 
 
+### trash (files)
+
+Promise `trash` uses [cpy](https://www.npmjs.com/package/trash) (NPM Documentation).
+
+```javascript
+fildes.trash(['./data/file.txt'])
+.then(function(){
+    console.log('directory copied!');
+});
+```
+
+
 ### Test
 
 ```bash

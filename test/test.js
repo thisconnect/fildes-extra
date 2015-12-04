@@ -22,3 +22,4 @@ tape('setup', function(t){
 });
 
 require('./test-dir.js');
+require('./test-trash.js');
