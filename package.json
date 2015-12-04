@@ -13,6 +13,7 @@
   },
   "keywords": [
     "promise",
+    "fildes",
     "mkdir",
     "mkdirp",
     "rm",
@@ -34,7 +35,7 @@
   "dependencies": {
     "cpy": "^3.4.1",
     "debug": "^2.2.0",
-    "fildes": "^1.0.0",
+    "fildes": "^1.0.1",
     "rimraf": "^2.4.4"
   }
 }
