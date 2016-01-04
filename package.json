@@ -36,7 +36,7 @@
     "tape": "^4.2.2"
   },
   "dependencies": {
-    "cpy": "^3.4.1",
+    "cpy": "^4.0.0",
     "debug": "^2.2.0",
     "empty-trash": "^2.0.0",
     "fildes": "^1.0.1",
