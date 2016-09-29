@@ -1,6 +1,6 @@
 {
   "name": "fildes-extra",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "Extends fildes promises with rm -rf, cp -r and mkdir -p",
   "main": "lib/main.js",
   "scripts": {
