@@ -41,6 +41,19 @@ files.mkdir('./a/new/dir')
 ```
 
 
+## find (pattern)
+
+Promise `fildes.find` alias `fildes.glob`
+uses [glob](https://www.npmjs.com/package/glob) (NPM Documentation).
+
+```javascript
+fildes.find('**/*.{jpg,png}')
+.then(function(images){
+    console.log('found', images.length, 'images')
+})
+```
+
+
 ### rm (path)
 
 Promise `fildes.rm` alias `fildes.rmdir`
