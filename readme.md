@@ -1,9 +1,9 @@
 # Fildes Extra
 
 
-[![Build Status](https://img.shields.io/travis/thisconnect/fildes-extra/master.svg?style=flat-square)](https://travis-ci.org/thisconnect/fildes-extra)
-[![Dependencies](https://img.shields.io/david/thisconnect/fildes-extra.svg?style=flat-square)](https://david-dm.org/thisconnect/fildes-extra)
-[![Dev Dependencies](https://img.shields.io/david/dev/thisconnect/fildes-extra.svg?style=flat-square)](https://david-dm.org/thisconnect/fildes-extra#info=devDependencies)
+[![Build Status](https://img.shields.io/travis/thisconnect/fildes-extra/master.svg?style=flat-square&maxAge=1800)](https://travis-ci.org/thisconnect/fildes-extra)
+[![Dependencies](https://img.shields.io/david/thisconnect/fildes-extra.svg?style=flat-square&maxAge=1800)](https://david-dm.org/thisconnect/fildes-extra)
+[![Dev Dependencies](https://img.shields.io/david/dev/thisconnect/fildes-extra.svg?style=flat-square&maxAge=1800)](https://david-dm.org/thisconnect/fildes-extra?type=dev)
 
 Extends [fildes](https://github.com/thisconnect/fildes) with `glob`, `cpy`, `rimraf` and `trash`/`empty-trash`.
 
