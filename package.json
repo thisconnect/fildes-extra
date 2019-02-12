@@ -32,12 +32,12 @@
   "homepage": "https://github.com/thisconnect/fildes-extra#readme",
   "devDependencies": {
     "istanbul": "^0.4.5",
-    "tap-spec": "^4.1.1",
+    "tap-spec": "^5.0.0",
     "tape": "^4.6.2"
   },
   "dependencies": {
-    "cpy": "^6.0.0",
-    "debug": "^3.0.0",
+    "cpy": "^7.0.1",
+    "debug": "^4.1.1",
     "empty-trash": "^2.1.1",
     "fildes": "^2.0.0",
     "glob": "^7.1.0",

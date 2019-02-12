@@ -104,17 +104,17 @@ tape('cp', function(t){
 });
 
 
-tape('cp error', function(t){
+tape('cp recursive', function(t){
     var files = resolve(__dirname, './data/*');
     var destination = resolve(__dirname, './data/dir');
 
     file.copy([files], destination)
     .then(function(data){
-        t.fail('copied');
+        t.pass('copied');
         t.end();
     })
     .catch(function(error){
-        t.ok(error, error);
+        t.error(error);
         t.end();
     });
 });
