@@ -33,7 +33,7 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "tap-spec": "^5.0.0",
-    "tape": "^4.6.2"
+    "tape": "^4.10.1"
   },
   "dependencies": {
     "cpy": "^7.0.1",
