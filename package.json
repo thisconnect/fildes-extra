@@ -38,7 +38,7 @@
   "dependencies": {
     "cpy": "^7.0.1",
     "debug": "^4.1.1",
-    "empty-trash": "^2.1.1",
+    "empty-trash": "^3.0.0",
     "fildes": "^2.0.0",
     "glob": "^7.1.0",
     "rimraf": "^2.6.3",
